@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .home{width: 80%; text-align: center; display: grid;}
+        h1{color:darkred;margin-top: -25%; margin-left:25%;}
+        .info-box{display: flex;
+        margin-left: 28%;
+         margin-top: -8%;}
+
+        .box-sh{width:50%;
+        padding: 2%;
+        margin:5%;
+        background-color: rgba(0, 0, 0, 0.337);
+        border-radius: 12px;
+        border-bottom:2px darkred solid ;
+        border-left:2px darkred solid ;
+        transition: transform .2s;}
+
+        .box-sh:hover{transform: scale(1.5);}
+
+        h3{display: inline;}
+    </style>
+</head>
+<body>
+    
+<div class="home">
+    <img src="img/admin1.png" alt="admin" srcset="">
+    <br><br><br>
+    <h1>
+    <strong> Welcome to Admin Panel !</strong><br>
+     What would you want to do today?</h1>
+
+        <div class="info-box">
+     <div class="users box-sh"><h3>User: <br> 15 user /day </h3></div>
+     <div class="category box-sh"><h3>category: <br> 4 categories </h3></div>
+     <div class="product box-sh"><h3>Product: <br> 32 products /day </h3></div>
+     </div>
+    
+    </div>
+           </body>
+</html>
